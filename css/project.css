@@ -1,0 +1,179 @@
+/* CSS for carosel */
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+/* CSS for carosel */
+
+/* css for understanding user */
+.feature_section .box {
+  padding: 15px;
+  margin: 45px 0;
+}
+
+.feature_section .box .head-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.feature_section .box .head-box .img-box {
+  margin-right: 15px;
+}
+
+.feature_section .box .head-box .img-box svg {
+  width: 50px;
+  height: auto;
+}
+
+.feature_section .box .head-box h6 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.feature_section .box .detail-box {
+  margin-top: 15px;
+}
+
+.feature_section a {
+  display: inline-block;
+  padding: 10px 40px;
+  background-color: #b8a07e;
+  border-radius: 0;
+  border: 1px solid #b8a07e;
+}
+.download_section .box {
+  padding: 15px;
+  margin: 45px 0;
+}
+
+.download_section .box .head-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.download_section .box .head-box .img-box {
+  margin-right: 15px;
+  width: 60px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.download_section .box .head-box .img-box img {
+  width: 30px;
+}
+
+.download_section .box .head-box h6 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.download_section .box .detail-box {
+  margin-top: 15px;
+}
+
+.download_section .box .detail-box p {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.download_section .btn-1 {
+  display: inline-block;
+  padding: 10px 40px;
+  background-color: #b8a07e;
+  border-radius: 0;
+  border: 1px solid #b8a07e;
+  margin-top: 25px;
+}
+
+
+.download_section .btn-2 {
+  display: inline-block;
+  padding: 10px 40px;;
+  border-radius: 0;
+  margin-top: 25px;
+}
+
+.download_section .main-img-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.download_section .main-img-box img {
+  width: 75%;
+  -webkit-filter: drop-shadow(0px 0px 30px rgba(0, 0, 0, 0.37));
+          filter: drop-shadow(0px 0px 30px rgba(0, 0, 0, 0.37));
+}
+/* css for understanding user */
